@@ -1,0 +1,240 @@
+/*home */
+
+button{
+	transition: transform .1s;
+}
+
+button:hover {
+	 transform: scale(1.1);
+}
+
+#body-id{
+	font-family: Georgia, "Open Sans", serif;
+}
+
+#header .active{ 
+	background-color:  #c58953; 
+	padding-top:0;
+	padding-bottom:0;
+}
+
+#about-me-tag{
+	text-align: center;
+	font-family: "Dancing Script"; 
+}
+
+#about-name-small{
+	font-family: "Open Sans"
+}
+
+#about-name{
+	font-family: "Dancing Script"; 
+	color: #c58953;
+}
+
+#about-me-text{
+	line-height: 2;
+}
+
+#about-button{
+	width: 25%;
+}
+
+#img-na-chicks-daw img{
+	width: 100%;
+	transition: transform .1s;
+}
+
+#img-na-chicks-daw img:hover {
+	box-shadow: 2px 4px 2px #888888, -2px 4px 2px #888888;
+}
+
+#portfolio-btn{
+	width: 50%;
+}
+
+#portfolio img{
+	width: 100%;
+	box-shadow: 2px 4px 2px #888888;
+	transition: transform .2s;
+}
+
+#portfolio img:hover {
+	transform: scale(1.1);
+}
+
+#contact-me-tag-line{
+	background-color: #ccac8b;
+	font-family: "Montserrat";
+}
+
+#contact-me-tag-pre{
+	font-family: "Montserrat";
+	font-size: 1.5rem;
+	line-height: 1.7rem;
+	overflow: visible;
+}
+
+#contact-me-design{
+	font-weight: 800;
+}
+
+#contact-me-tag-line-author{
+	width: 100%;
+}
+
+#contact-me-details a{
+	color: black;
+	font-family: Montserrat;
+}
+
+#contact-me-details{
+	background-color: #f3f3f3;
+	line-height: 2.3rem;
+}
+
+#footer{
+	background-color: #1a1a1a;
+}
+
+#footer-menu{
+	text-align: center;
+}
+
+#footer-menu a {
+	color: white;
+}
+
+#footer-menu .active{
+	color: #ccac8b;
+	text-decoration: underline;
+}
+
+.hrs {
+	color: #ccac8b;
+	background-color: #ccac8b;
+	height: 0.25rem;
+}
+
+.btns {
+	padding-top: 0.5rem;
+	padding-bottom: 0.5rem;
+	border: 0px;
+	font-size: 0.7rem;
+	font-weight: 500;
+	color: white;
+	background-color: #1a1a1a;
+	box-shadow: -6px -6px #ccac8b;
+}
+
+.quote{
+	color:white;
+	font-weight: 800;
+	font-family: "Montserrat";
+	font-size: 2rem;
+	line-height: 2rem;
+}
+
+.fa-phone{
+	color:#a5e2a4;
+}
+
+.fa-envelope{
+	color:#c22d15;
+}
+
+.fa-facebook-f{
+	color:#4267b2;
+}
+
+.fa-twitter{
+	color:#5282e4;
+}
+
+.fa-instagram{
+	color:#e45952;
+}
+
+/*about page */
+
+#about-me-header{
+	background-image: url(../img/section-background.png);
+	background-repeat:no-repeat;
+	background-size: cover;
+}
+#about-page-text{
+	line-height: 2.5rem;
+}
+
+.fa-dot-circle{
+	color: #c58953;
+}
+
+/* portfolio page */
+
+#portfolio-header{
+	background-image: url(../img/section-background.png);
+	background-repeat:no-repeat;
+	background-size: cover;
+}
+
+#portfolio-navbar{
+	text-align: center;
+}
+
+#portfolio-navbar a {
+	margin: 0;
+	padding-top: 0.8rem;
+	padding-bottom: 0.8rem;
+	font-size: 1.3rem;
+	font-family: "Montserrat";
+	color: black;
+}
+
+#portfolio-navbar .active{
+	background-color: black;
+	color: white;
+}
+
+#portfolio-navbar .active a{
+	color: white;
+}
+
+#portfolio-navbar-container{
+	background-color: #ccac8b;
+}
+
+#portfolio-content img{
+	transition: transform .2s;
+}
+
+#portfolio-content img:hover {
+	transform: scale(1.2);
+}
+
+/* portfolio logo */
+
+#portfolio-content-logo img {
+	transition: transform .2s;
+}
+
+#portfolio-content-logo img:hover {
+	transform: scale(1.2);
+}
+
+
+/*animations*/
+
+@keyframes bounceIn {
+  0% {
+    transform: scale(0.1);
+    opacity: 0;
+  }
+  60% {
+    transform: scale(1.2);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1);
+  }
+}

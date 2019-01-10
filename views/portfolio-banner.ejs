@@ -1,0 +1,100 @@
+<% include partials/header %>
+
+<body id="body-id">
+
+	<nav id="header" class="navbar navbar-expand-lg navbar-light bg-light py-0">
+		<div class="container d-flex align-items-stretch">
+		  <a class="navbar-brand d-flex align-items-center" href="/home"><img src="img/small-logo.png"></a>
+		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+		    <span class="navbar-toggler-icon"></span>
+		  </button>
+		  <div class="collapse navbar-collapse" id="navbarText">
+		    <ul class="navbar-nav ml-auto">
+		      <li class="nav-item d-flex align-items-center justify-content-center py-3">
+		        <a class="nav-link" href="/home">Home</a>
+		      </li>
+		      <li class="nav-item d-flex align-items-center justify-content-center py-4">
+		        <a class="nav-link" href="/about">About</a>
+		      </li>
+		      <li class="nav-item d-flex align-items-center justify-content-center py-4 active">
+		        <a class="nav-link" href="/portfolio-webdesign"><span class="sr-only">(current)</span>Portfolio</a>
+		      </li>
+		      <li class="nav-item d-flex align-items-center justify-content-center py-4">
+		        <a class="nav-link" href="/home#contact-me">Contact</a>
+		      </li>
+		    </ul>
+		  </div>
+		 </div>
+	</nav>
+
+	<section id="portfolio-header">
+		<div class="container">
+			<div class="row justify-content-sm-center pb-3">
+				<div id="about-me-tag" class="col-sm-3 col-lg-2">
+					<h1 class="mt-sm-4 pt-sm-5">Portfolio</h1>
+					<hr id="about-me-hr" class="hrs my-0">
+					<p id="about-name-small" class="pb-4">my works</p>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="portfolio-navbar">
+		<div id="portfolio-navbar-container" class="container mt-5 mb-3">
+			<div class="row">
+				<div class="col-sm-3 d-flex justify-content-center align-items-center">
+					<a href="/portfolio-webdesign#portfolio-navbar">Web Design</a>
+				</div>
+				<div class="col-sm-3 d-flex justify-content-center align-items-center active">
+					<a href="/portfolio-banner#portfolio-navbar">Banner</a>
+				</div>
+				<div class="col-sm-3 d-flex justify-content-center align-items-center">
+					<a href="/portfolio-logo#portfolio-navbar">Logo</a>
+				</div>
+				<div class="col-sm-3 d-flex justify-content-center align-items-center">
+					<a href="/portfolio-art#portfolio-navbar">Art</a>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="portfolio-content">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-12 p-0 d-flex flex-column align-items-center port-img">
+					<img src="img/port-banner-1.png" class="img-fluid mt-2">
+					<img src="img/port-banner-2.png" class="img-fluid mt-1">
+					<img src="img/port-banner-3.png" class="img-fluid mt-1">
+					<img src="img/port-banner-4.png" class="img-fluid mt-1">
+					<img src="img/port-banner-5.png" class="img-fluid mt-1">
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+	<section id="footer" class="pt-5 pb-5">
+		<div class="container pt-5">
+			<div class="row justify-content-center pt-3">
+				<div class="col-sm-4 d-flex justify-content-center">
+					<img src="img/footer-logo.png" class="img-fluid">
+				</div>
+			</div>
+			<div id="footer-menu" class="row justify-content-center pt-3 pb-5">
+				<div class="col-sm-2">
+					<a href="/home">Home</a>
+				</div>
+				<div class="col-sm-2">
+					<a href="/about">>About</a>
+				</div>
+				<div class="col-sm-2">
+					<a href="/portfolio-webdesign" class="active">Portfolio</a>
+				</div>
+				<div class="col-sm-2">
+					<a href="/home#contact-me">Contact</a>
+				</div>
+			</div>
+		</div>
+	</section>
+
+<% include partials/footer %>
