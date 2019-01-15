@@ -22,20 +22,8 @@ app.get("/about", function(req,res){
    res.render("about"); 
 });
 
-app.get("/portfolio-webdesign", function(req,res){
-   res.render("portfolio-webdesign"); 
-});
-
-app.get("/portfolio-banner", function(req,res){
-   res.render("portfolio-banner"); 
-});
-
-app.get("/portfolio-logo", function(req,res){
-   res.render("portfolio-logo"); 
-});
-
-app.get("/portfolio-art", function(req,res){
-   res.render("portfolio-art"); 
+app.get("/portfolio", function(req,res){
+   res.render("portfolio"); 
 });
 
 app.listen(process.env.PORT, process.env.IP, function(){
