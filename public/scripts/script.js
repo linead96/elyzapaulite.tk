@@ -1,3 +1,6 @@
+var landing = document.querySelector("#landing");
+var mainDiv = document.querySelector("#main-div");
+
 var portNavDivs = document.querySelectorAll(".port-nav-div");
 var portNavs = document.querySelectorAll(".port-nav");
 var portSections = document.querySelectorAll(".port-content");
@@ -38,4 +41,11 @@ function hideSections(){
 	portNavDivs.forEach(function(element){
 	     element.classList.remove("active");
 	});
+}
+
+if(landing != null && mainDiv != null){
+	setTimeout(function(){
+		landing.style.display = 'none';
+		mainDiv.style.display = 'block';
+	},3000);
 }
